@@ -80,16 +80,17 @@
 
 /* Pseudo Class */
 
-.main2 a{
+.clb>a{
   text-decoration: none;
   font-weight: bold;
 }
-.main2 a:visited {
+.clb>a:visited {
   color: black;
 }
-.main2 a:hover {
+.clb>a:hover {
   color: red;
 }
+
 /*
 -------------------------------------------------------------
 Lịch thi đấu 
