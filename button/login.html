@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form id="form_login">
+        <div class="header"><h2>Forum Bóng Đá - Đăng Nhập</h2></div>
+        <div class="main">
+            <input class="control" name="email" type="email" placeholder="E-mail">
+            <span id="email_err" class="error"></span>
+
+            <input class="control" name="password" type="password" placeholder="Password">
+            <span id="password_err" class="error"></span>
+
+            <div class="checkbox">
+                <input name="remember" type="checkbox" value="Remember Me">Nhớ tài khoản
+            </div>
+            <div class="btn">
+                <button>Đăng Nhập</button>
+            </div>
+        </div>
+
+        <p>Bạn chưa có tài khoản? <a href="add.html">Đăng Kí</a> </p>
+    </form>
+
+    <script src="login.js"></script>
+</body>
+</html>

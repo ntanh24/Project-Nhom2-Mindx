@@ -1,0 +1,103 @@
+.main {
+    /* border: 1px solid red; */
+    /* padding: 20px 100px 20px 100px; */
+}
+
+.main-header {
+    background-color: #282d3b;
+    padding: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0 7px;
+
+}
+
+.main3>section>div>img {
+    display: flex;
+    width: 100%;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.item>a {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+}
+
+.icon-box {
+    display: flex;
+}
+
+.icon-box>div>img {
+    width: 65px;
+}
+
+.title {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 25px;
+}
+
+.h3 {
+    font-size: 30px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.Giay, .Ao, .Phukien {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.Giay>a, .Ao>a, .Phukien>a {
+    font-size: 17px;
+    width: 20%;
+}
+
+.Giay>a>img, .Phukien>a>img {
+    width: 200px;
+    height: 200px;
+}
+
+.Ao>a>img {
+    width: 200px;
+    height: 300px;
+}
+
+.title-Ao>h3, .title-Phukien>h3 {
+    margin-top: 20px;
+}
+
+.Giay>a:link, .Ao>a:link, .Phukien>a:link {
+    color: black;
+}
+
+.Giay>a:visited, .Ao>a:visited, .Phukien>a:visited {
+    color: blue;
+}
+
+.Giay>a:hover, .Ao>a:hover, .Phukien>a:hover {
+    color: red;
+}

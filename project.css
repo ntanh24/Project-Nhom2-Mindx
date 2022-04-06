@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+
+}
+nav{ width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin: 0;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 3;
+   justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    height: 70px;
+}
+nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+}
+nav ul li a.log{
+    display: flex;
+    background-color: rgb(69, 76, 76);
+    height: 50%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+nav ul li a.sign{
+  border: 1px solid rgb(69, 76, 76);
+  display: flex;
+  height: 50%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+nav h2.logo{
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-left: 50px;
+}
+div.full-news{
+    display: flex;
+    width: 100%;
+    /* height: 67vh; */
+}
+div.sidebar-left{
+    width: 5%;
+}
+div.sidebar-right{
+    width: 5%;
+}
+div.news{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* top: 70px; */
+    padding: 20px;
+}
+div.news h2{
+    display: flex;
+}
+header.news{
+    width: 100%;
+}
+#news header h2 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#news hr{
+    margin-top: 6px;
+
+}
+.img-logo{
+  width: 5%;
+  height: auto;
+}
+a.news-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: black;
+}
+div.fb1{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+div.news-1{
+    display: flex;
+    flex: 3;
+}
+div.news-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.news-1 img{
+    width: 90%;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.a-news {
+    display: flex;
+    text-decoration: none;
+    margin: 20px;
+    color:black;
+}
+.a-news img{
+    width: 40%;
+    height: auto;
+}
+div.space{
+    width: 5%;
+}
+
+.news-1>img {
+    padding-bottom: 20px;
+}
+

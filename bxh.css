@@ -1,0 +1,110 @@
+/* Nút click button */
+
+.danhsach {
+  padding: 15px ;
+}
+.danhsach button{
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/* Bảng */
+
+thead{
+  background-color: #1dd1a1;
+}
+tbody tr td span {
+  font-weight: bold;
+}
+table, th, td{
+  border:1px solid #ccc;
+}
+table{
+  border-collapse:collapse;
+  width:100%;
+}        
+tr:hover{
+  background-color:#ddd;
+  cursor:pointer;
+}
+
+/* Mũi tên lên xuống đứng yên */
+
+.tenlen {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: solid greenyellow;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.tenxuong {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dungyen {
+  vertical-align: middle;
+  border: solid grey;
+  border-width: 3px 3px 3px 3px;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+/* Thông tin câu lạc bộ */
+
+.anhclb{
+  width: 20px;
+  height: 20px;
+  object-fit: scale-down;
+  vertical-align: middle;
+}
+.clb{
+  padding-left: 20px;
+}
+
+/* Pseudo Class */
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.clb>a:link {
+  color: black;
+}
+.clb>a:visited {
+  color: blue;
+}
+.clb>a:hover {
+  color: red;
+}
+
+/*
+-------------------------------------------------------------
+Lịch thi đấu 
+*/
+.lichthidau{
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.laliga {
+  width: 80%;
+  display:block;
+  margin: 0 auto;
+  object-fit: scale-down;
+  text-align: center;
+}
+
+

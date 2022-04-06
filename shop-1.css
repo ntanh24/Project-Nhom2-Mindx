@@ -1,0 +1,122 @@
+nav { 
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    /* height: 70px; */
+    /* position: fixed; */
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin: 0;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 3;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    height: 70px;
+}
+nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+}
+nav ul li a.log{
+    display: flex;
+    background-color: rgb(69, 76, 76);
+    height: 50%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+nav ul li a.sign{
+  border: 1px solid rgb(69, 76, 76);
+  display: flex;
+  height: 50%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+nav h2.logo{
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    /* height: 70px; */
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+.shop-1-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-1-item {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+.shop-1-header {
+    padding: 20px 50px 20px 50px;
+}
+
+.shop-1-main {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-1-main-img {
+    
+}
+
+.shop-1-main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.shop-1-main-info>div>button {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title-Ao {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Ao>a {
+    display: flex;
+    flex-direction: column;
+}
+
+.Ao>a>img {
+    padding: 15px;
+}
+
+.title-Ao>div>a {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
