@@ -80,16 +80,17 @@ nav h2.logo{
     justify-content: center;
 }
 
-.shop-1-main-img {
-    
-}
-
 .shop-1-main-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px;
     font-size: 20px;
+}
+
+.shop-1-main-info>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .shop-1-main-info>div>button {
